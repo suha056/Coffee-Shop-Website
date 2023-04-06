@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/vendors/css/all.min.css">
+		<link rel="stylesheet" href="css/coffee shop.css">
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+		<title> Coffee Shop Website </title>
+	</head>
+	<body>
+		<!--navbar section-->
+		<div class="nav">
+			<div class="containt">
+				<img class="logo" src="images/home/logo.png" />
+				<input type="checkbox" id="nava" />
+				<input type="checkbox" id="cart" />
+				<input type="checkbox" id="search" />
+				<ul class="nav-list">
+					<li class="nav-items"><a href="#home">Home</a></li>
+					<li class="nav-items"><a href="#about">About</a></li>
+					<li class="nav-items"><a href="#menu">Menu</a></li>
+					<li class="nav-items"><a href="#Products">Products</a></li>
+					<li class="nav-items"><a href="#Review">Review</a></li>
+					<li class="nav-items"><a href="#Contact">Contact</a></li>
+					<li class="nav-items"><a href="#Blog">Blog</a></li>
+				</ul>
+				<div class="icons">
+					<label for="search"> 
+						<i class="ri-search-line"></i>
+					</label>
+					<label for="cart"> 
+						<i class="ri-shopping-cart-2-fill"></i>
+					</label>
+					<label for="nava" id="l-nava"> 
+						<i class="ri-list-check"></i>
+					</label>
+				</div>
+				
+				<div class="nav-cart">
+					<div class="cart-items">
+						<i class="ri-close-line"></i>
+						<img src="images/home/cart-item-1.jpg" />
+						<div class="cart-items-des">
+							<h3> Cart Item 01 </h3>
+							<p> $15.99/- </p>
+						</div>
+					</div>
+					<div class="cart-items">
+						<i class="ri-close-line"></i>
+						<img src="images/home/cart-item-2.jpg" />
+						<div class="cart-items-des">
+							<h3> Cart Item 02 </h3>
+							<p> $15.99/- </p>
+						</div>
+					</div>
+					<div class="cart-items">
+						<i class="ri-close-line"></i>
+						<img src="images/home/cart-item-3.jpg" />
+						<div class="cart-items-des">
+							<h3> Cart Item 03 </h3>
+							<p> $15.99/- </p>
+						</div>
+					</div>
+					<div class="cart-items">
+						<i class="ri-close-line"></i>
+						<img src="images/home/cart-item-4.jpg" />
+						<div class="cart-items-des">
+							<h3> Cart Item 04 </h3>
+							<p> $15.99/- </p>
+						</div>
+					</div>
+					<button class="checkout"> Checkout Now </button>
+				</div>
+				<div class="search-form">
+					<input type="search" id="search-form-item" placeholder="Search here..." />
+					<label for="search-form-item" class="ri-search-line" id="l-search-form-item"></label>
+				</div>
+			</div><!--./containt-->
+		</div><!--./nav-->
+		
+		<!--Home Section-->
+		<div class="home" id="home">
+			<div class="content">
+				<div class="introduction">
+					<h1 class="intro-title">
+						FRESH COFFEE IN THE MORNING
+					</h1>
+					<p class="intro-desc">
+						Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Placeat Labore, Sint Cupiditate Distinctio Tempora Reiciendis.
+					</p>
+					<button class="Get"> Get Your Now </button>
+				</div><!--introduction-->
+			</div><!--./content-->
+		</div><!--./home-->
+		<div class="about" id="about">
+				<div class="container">
+					<div class="about-info">
+						<h2 class="info-title"> <span> ABOUT </span> US </h2>
+						<div class="about-con">
+							<img class="about-con-img" src="images/about/about-img.jpg" />
+							<div class="about-con-des">
+								<h3 class="about-con-des-title"> What Makes Our Coffee Special? </h3>
+								<p class="about-con-des-pra"> Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Voluptatibus Qui Ea Ullam, Enim Tempora 
+								Ipsum Fuga Alias Quae Ratione A Officiis Id Temporibus Autem? Quod Nemo Facilis Cupiditate. Ex, Vel? </p>
+								<p class="about-con-des-pra"> Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Odit Amet Enim Quod Veritatis, 
+								Nihil Voluptas Culpa! Neque Consectetur Obcaecati Sapiente? </p>
+								<button class="learn"> learn More </button>
+							</div>
+						</div>
+					</div><!--./about-info-->
+				
+				</div><!--./container-->
+				
+			</div><!--./about-->
+			
+			<!-- menu Section -->
+			<div class="menu"  id="menu">
+			<div class="content">
+				<div class="ho-con">
+					<h1 class="con-title">
+						OUR <span>MENU</span>
+					</h1>
+					<div class="menu-con">
+						<div class="con-ho">
+							<div class="ho-item">
+								<img class="item-img" src="images/menu/menu-1.jpg">
+								<h3 class="item-title"> Tasty And Healty </h3>
+								<p class="item-desc"> $15.99 <span> $20.99 </span></p>
+								<button class="Add"> Add to Cart </button>
+							</div><!--./ho-item-->
+							
+							<div class="ho-item">
+								<img class="item-img" src="images/menu/menu-2.jpg" >
+								<h3 class="item-title"> Tasty And Healty </h3>
+								<p class="item-desc"> $15.99 <span> $20.99 </span> </p>
+								<button class="Add"> Add to Cart </button>
+							</div><!--./ho-item-->
+							
+							<div class="ho-item">
+								<img class="item-img" src="images/menu/menu-3.jpg" >
+								<h3 class="item-title"> Tasty And Healty </h3>
+								<p class="item-desc"> $15.99 <span> $20.99 </span></p>
+								<button class="Add"> Add to Cart </button>
+							</div><!--./ho-item-->
+						</div><!--./con-ho-->
+						<div class="con-ho">
+							<div class="ho-item">
+								<img class="item-img" src="images/menu/menu-4.jpg" >
+								<h3 class="item-title"> Tasty And Healty </h3>
+								<p class="item-desc"> $15.99 <span> $20.99 </span></p>
+								<button class="Add"> Add to Cart </button>
+							</div><!--./ho-item-->
+							
+							<div class="ho-item">
+								<img class="item-img" src="images/menu/menu-5.jpg">
+								<h3 class="item-title"> Tasty And Healty </h3>
+								<p class="item-desc"> $15.99 <span> $20.99 </span> </p>
+								<button class="Add"> Add to Cart </button>
+							</div><!--./ho-item-->
+							
+							<div class="ho-item">
+								<img class="item-img" src="images/menu/menu-6.jpg" >
+								<h3 class="item-title"> Tasty And Healty </h3>
+								<p class="item-desc"> $15.99 <span> $20.99 </span></p>
+								<button class="Add"> Add to Cart </button>
+							</div><!--./ho-item-->
+						</div><!--./con-ho-->
+					</div><!--./menu-con-->
+				</div><!--./ho-con-->
+				
+			</div><!--./content-->
+			
+		</div><!--./menu-->
+		
+		<!-- Products Section -->
+		<div class="Products"  id="Products">
+			<div class="content">
+				<div class="ho-con">
+					<h1 class="con-title">
+						OUR <span>PRODUCTS</span>
+					</h1>
+					<div class="Products-con">
+						<div class="con-ho">
+							<div class="Products-ho-item">
+								<div class="Products-ho-item-icons">  
+									<i class="fas fa-shopping-cart"></i>
+									<i class="fas fa-heart"></i>
+									<i class="fas fa-eye"></i>
+								</div>
+								<img class="Products-ho-item-img" src="images/products/product-1.jpg">
+								<h1 class="item-title"> Fresh Coffee </h1>
+								<div class="Products-ho-item-stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+								</div>
+								<p class="item-desc"> $15.99 <span> $20.99 </span></p>
+							</div><!--./ho-item-->
+							
+							<div class="Products-ho-item">
+								<div class="Products-ho-item-icons">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="fas fa-heart"></i>
+									<i class="fas fa-eye"></i>
+								</div>
+								<img class="Products-ho-item-img" src="images/products/product-2.jpg">
+								<h1 class="item-title"> Fresh Coffee </h1>
+								<div class="Products-ho-item-stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+								</div>
+								<p class="item-desc"> $15.99 <span> $20.99 </span></p>
+							</div><!--./ho-item-->
+							
+							<div class="Products-ho-item">
+								<div class="Products-ho-item-icons">
+									<i class="fas fa-shopping-cart"></i>
+									<i class="fas fa-heart"></i>
+									<i class="fas fa-eye"></i>
+								</div>
+								<img class="Products-ho-item-img" src="images/products/product-3.jpg">
+								<h1 class="item-title"> Fresh Coffee </h1>
+								<div class="Products-ho-item-stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+								</div>
+								<p class="item-desc"> $15.99 <span> $20.99 </span></p>
+							</div><!--./ho-item-->
+							
+						</div><!--./con-ho-->
+						
+					</div>
+					
+				</div>
+				
+			</div><!--./content-->
+			
+		</div><!--./Products-->
+	
+		<!-- Review Section -->
+			<div class="Review"  id="Review">
+				<div class="content">
+					<div class="ho-con">
+						<h1 class="con-title">
+							CUSTOMER'S <span>REVIEW</span>
+						</h1>
+						<div class="Review-con">
+							<div class="con-ho">
+								<div class="Review-ho-item">
+									<img class="Review-ho-item-img" src="images/Review/quote-img (2).png" />
+									<p class="item-desc"> Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Animi Nulla Sit Libero Nemo Fuga Sequi Nobis? 
+									Necessitatibus Aut Laborum, Nisi Quas Eaque Laudantium Consequuntur Iste Ex Aliquam Minus Vel? Nemo.</p>
+									<img class="Review-ho-item-pic" src="images/Review/pic-1.jpg" />
+									<h3 class ="Review-ho-item-name"> John Deo </h3>
+									<div class="Review-ho-item-stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div><!--./ho-item-->
+								
+								<div class="Review-ho-item">
+									<img class="Review-ho-item-img" src="images/Review/quote-img (2).png" />
+									<p class="item-desc"> Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Animi Nulla Sit Libero Nemo Fuga Sequi Nobis? 
+									Necessitatibus Aut Laborum, Nisi Quas Eaque Laudantium Consequuntur Iste Ex Aliquam Minus Vel? Nemo.</p>
+									<img class="Review-ho-item-pic" src="images/Review/pic-1.jpg" />
+									<h3 class ="Review-ho-item-name"> John Deo </h3>
+									<div class="Review-ho-item-stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div><!--./ho-item-->
+								
+								<div class="Review-ho-item">
+									<img class="Review-ho-item-img" src="images/Review/quote-img (2).png" />
+									<p class="item-desc"> Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Animi Nulla Sit Libero Nemo Fuga Sequi Nobis? 
+									Necessitatibus Aut Laborum, Nisi Quas Eaque Laudantium Consequuntur Iste Ex Aliquam Minus Vel? Nemo.</p>
+									<img class="Review-ho-item-pic" src="images/Review/pic-1.jpg" />
+									<h3 class ="Review-ho-item-name"> John Deo </h3>
+									<div class="Review-ho-item-stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div><!--./ho-item-->
+								
+							</div><!--./con-ho-->
+							
+						</div>
+						
+					</div>
+					
+				</div><!--./content-->
+				
+			</div><!--./Review-->
+			
+			<div class="Contact" id="Contact">
+				<div class="content">
+					<div class="Contact-info">
+						<h2 class="info-title">  CONTACT <span> US</span>  </h2>
+						<div class="Contact-con">
+							<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin" 
+							allowfullscreen="" loading="lazy"></iframe>
+							<div class="Contact-con-des">
+								<h3 class="Contact-con-des-title"> GET IN TOUCH </h3>
+								<div class="Contact-con-des-name">
+									<span class="fas fa-user"></span>
+									<input type ="text" placeholder="Name" />
+								</div>
+								<div class="Contact-con-des-email">
+									<span class="fas fa-envelope"></span>
+									<input type ="email" placeholder="Email" />
+								</div>
+								<div class="Contact-con-des-phone">
+									<span class="fas fa-phone"></span>
+									<input type ="number" placeholder="Number" />
+								</div>
+								<button class="Contact-butt"> Contact Us </button>
+							</div>
+						</div>
+					</div><!--./Contact-info-->
+				
+				</div><!--./container-->
+				
+			</div><!--./Contact-->
+			
+			<!-- Blog Section -->
+		<div class="Blog"  id="Blog">
+			<div class="content">
+				<div class="ho-con">
+					<h1 class="con-title">
+						OUR <span>BLOG</span>
+					</h1>
+					<div class="Blog-con">
+						<div class="con-ho">
+							<div class="ho-item">
+								<div class="ho-item-img">
+									<img class="item-img" src="images/Blog/blog-1.jpg" />
+								</div>
+								<h2 class="item-title"> Tasty And Refreshing Coffee </h2>
+								<h3 class="item-desc"> By Admin / 21st May, 2021 </h3>
+								<p class="item-pra"> Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Non, Dicta. </p>
+								<button class="read"> Read More </button>
+							</div><!--./ho-item-->
+							
+							<div class="ho-item">
+								<div class="ho-item-img">
+									<img class="item-img" src="images/Blog/blog-2.jpg" />
+								</div>
+								<h2 class="item-title"> Tasty And Refreshing Coffee </h2>
+								<h3 class="item-desc"> By Admin / 21st May, 2021 </h3>
+								<p class="item-pra"> Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Non, Dicta. </p>
+								<button class="read"> Read More </button>
+							</div><!--./ho-item-->
+							
+							<div class="ho-item">
+								<div class="ho-item-img">
+									<img class="item-img" src="images/Blog/blog-3.jpg" />
+								</div>
+								<h2 class="item-title"> Tasty And Refreshing Coffee </h2>
+								<h3 class="item-desc"> By Admin / 21st May, 2021 </h3>
+								<p class="item-pra"> Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Non, Dicta. </p>
+								<button class="read"> Read More </button>
+							</div><!--./ho-item-->
+						</div><!--./con-ho-->
+					</div>
+				</div><!--./content-->
+			</div>
+		</div><!--./blog-->
+		
+		<!--footer section-->
+		<div class="footer">
+			<div class="content">
+				<div class="social">
+					<a href="#" class="fab fa-facebook-f"></a>
+					<a href="#" class="fab fa-twitter"></a>
+					<a href="#" class="fab fa-instagram"></a>
+					<a href="#" class="fab fa-linkedin"></a>
+					<a href="#" class="fab fa-pinterest"></a>
+				</div><!--./social-->
+				<p class="footer-pra"> Created By <span> Developers </span> | All Rights Reserved </p>
+			</div><!--content-->
+		</div><!--./footer-->
+		
+	</body>
+</html>
